@@ -1,0 +1,146 @@
+/* tickers Styling */
+.tickers-wrapper.has-js {
+	/*margin: 2px 0px 20px 0px;*/
+	padding: 0px 10px;
+	width: 100%;
+	height: 29px;
+	display: block;
+	-webkit-border-radius: 1px;
+	-moz-border-radius: 1px;
+	border-radius: 1px;
+	/* background-color: #f8f0db; */
+	opacity: 1.5;
+	background-color: #CCC;
+	font-size: 0.85em;
+}
+.tickers {
+	width: 75%;
+	height: 23px;
+	display: block;
+	position: relative;
+	overflow: hidden;
+}
+.tickers-title {
+	padding-top: 5px;
+	color: #990000;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+.tickers-content {
+	margin: 0px;
+	padding-top: 7px;
+	position: absolute;
+	color: #1F527B;
+	font-weight: bold;
+	/*background-color: #CCC;*/
+	overflow: hidden;
+	white-space: nowrap;
+	line-height: 1.2em;
+}
+.tickers-content:focus {
+	none;
+}
+.tickers-content a {
+	text-decoration: none;	
+	color: #1F527B;
+}
+.tickers-content a:hover {
+	text-decoration: underline;	
+	color: #0D3059;
+}
+.tickers-swipe {
+	padding-top: 9px;
+	position: absolute;
+	top: 0px;
+	background-color: #CCC;
+	display: block;
+	width: 800px;
+	height: 23px; 
+}
+.tickers-swipe span {
+	margin-left: 1px;
+	background-color: #CCC;
+	border-bottom: 1px solid #1F527B;
+	height: 12px;
+	width: 7px;
+	display: block;
+}
+.tickers-controls {
+	padding: 8px 0px 0px 0px;
+	list-style-type: none;
+	float: left;
+}
+.tickers-controls li {
+	padding: 0px;
+	margin-left: 5px;
+	float: left;
+	cursor: pointer;
+	height: 16px;
+	width: 16px;
+	display: block;
+}
+.tickers-controls li.jnt-play-pause {
+	background-image: url('../img/controls.png');
+	background-position: 32px 16px;
+}
+.tickers-controls li.jnt-play-pause.over {
+	background-position: 32px 32px;
+}
+.tickers-controls li.jnt-play-pause.down {
+	background-position: 32px 0px;
+}
+.tickers-controls li.jnt-play-pause.paused {
+	background-image: url('../img/controls.png');	
+	background-position: 48px 16px;
+}
+.tickers-controls li.jnt-play-pause.paused.over {
+	background-position: 48px 32px;
+}
+.tickers-controls li.jnt-play-pause.paused.down {
+	background-position: 48px 0px;
+}
+.tickers-controls li.jnt-prev {
+	background-image: url('../img/controls.png');
+	background-position: 0px 16px;		
+}
+.tickers-controls li.jnt-prev.over {
+	background-position: 0px 32px;		
+}
+.tickers-controls li.jnt-prev.down {
+	background-position: 0px 0px;		
+}
+.tickers-controls li.jnt-next {
+	background-image: url('../img/controls.png');	
+	background-position: 16px 16px;	
+}
+.tickers-controls li.jnt-next.over {
+	background-position: 16px 32px;	
+}
+.tickers-controls li.jnt-next.down {	
+	background-position: 16px 0px;	
+}
+.js-hidden {
+	display: none;
+}
+.no-js-news {
+	padding: 10px 0px 0px 45px; 
+	color: #CCC;
+}
+.left .tickers-swipe {
+	/*left: 80px;*/
+}
+.left .tickers-controls, .left .tickers-content, .left .tickers-title, .left .tickers {
+    float: left;
+}
+.left .tickers-controls {
+    padding-left: 66px;
+}
+.right .tickers-swipe {
+	/*right: 80px;*/
+}
+.right .tickers-controls, .right .tickers-content, .right .tickers-title, .right .tickers {
+    float: right;
+}
+.right .tickers-controls {
+    padding-right: 6px;
+}
